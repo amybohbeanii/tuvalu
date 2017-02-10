@@ -1,0 +1,13 @@
+/* CSS Resets */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* CSS Imports */
+@import 'home';
