@@ -4,10 +4,11 @@
 	background-image: url("http://4.bp.blogspot.com/-gpiS0MDknmA/VVOreSk0O-I/AAAAAAAAAfc/qDEyLegJdKc/s1600/11260370_10152903038608479_6272696136979344186_n.jpg");
 	background-repeat: no-repeat;
 	background-size: 100vw, 100vh;
+	text-shadow: 0px 0px 10px black;
 
 	&__header {
 		font-family: 'Open Sans', sans-serif;
-		padding-top: 90px;
+		padding-top: 80px;
 		color: white;
 		font-size: 100px;
 		text-shadow: 0px 0px 10px black;
@@ -17,12 +18,11 @@
 	&__description {
 		font-family: 'Sansita', sans-serif;
 		color: white;
-		font-size: 25px;
+		font-size: 30px;
 		text-align: center;
-		text-shadow: 0 0 6px black;
 	}
 
-	&__menu {
+	&__options {
 		padding-top: 60px;
 		display: flex;
 		justify-content: center;
@@ -42,7 +42,12 @@
 			}
 		}
 	}
+
+	&__address {
+		margin: 0 auto;
+		width: 375px;
+		padding-top: 30px;
+		text-align: center;
+		color: #fff;
+	}
 }
-
-
-
