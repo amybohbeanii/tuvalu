@@ -1,4 +1,5 @@
 nav {
+	height: 40px;
 	padding-right: 30px;
 	display: flex;
 	justify-content: flex-end;
@@ -6,5 +7,9 @@ nav {
 	p {
 		padding: 5px;
 		cursor: pointer;
+
+		&:hover {
+			border-bottom: 2px solid black;
+		}
 	}
 }
