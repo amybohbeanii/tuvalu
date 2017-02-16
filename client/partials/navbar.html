@@ -1,11 +1,17 @@
 <template name='navbar'>
+	<section class='navbar'>
 
-	<nav>
-		<p><a href="{{pathFor 'team'}}">Team</a></p>
-		<p><a href="{{pathFor 'art'}}">Art</a></p>
-		<p><a href="{{pathFor 'goals'}}">Goals</a></p>
-		<p><a href="{{pathFor 'news'}}">News</a></p>
-		<p><a href="{{pathFor 'support'}}">Support Us</a></p>
-	</nav>
+		<nav class='home'>
+			<p><a href="{{pathFor 'home'}}">Home</a></p>
+		</nav>
+
+		<nav>
+			<p><a href="{{pathFor 'team'}}">Team</a></p>
+			<p><a href="{{pathFor 'art'}}">Art</a></p>
+			<p><a href="{{pathFor 'goals'}}">Goals</a></p>
+			<p><a href="{{pathFor 'news'}}">News</a></p>
+			<p><a href="{{pathFor 'support'}}">Support Us</a></p>
+		</nav>
+	</section>
 
 </template>

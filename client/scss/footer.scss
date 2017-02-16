@@ -1,0 +1,19 @@
+.footer {
+	background-color: gray;
+
+	&__container {
+		padding: 15px;
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: flex-start;
+		align-items: center;
+		a {
+			padding: 0 15px;
+
+			i {
+				font-size: 40px;
+			}
+		}
+	}
+
+}

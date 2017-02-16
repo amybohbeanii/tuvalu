@@ -1,15 +1,30 @@
-nav {
-	height: 40px;
-	padding-right: 30px;
+.navbar {
+	padding: 2px;
 	display: flex;
-	justify-content: flex-end;
+	justify-content: space-between;
+	align-items: center;
 
-	p {
-		padding: 5px;
-		cursor: pointer;
+	nav {
+		padding: 0 30px;
+		display: flex;
+		justify-content: flex-end;
 
-		&:hover {
-			border-bottom: 2px solid black;
+		p {
+			padding: 0 5px;
+			cursor: pointer;
+
+			a {
+				&:hover {
+					border-bottom: 2px solid black;
+				}
+
+			}
+		}
+
+		.home {
+			justify-content: flex-start;
+			align-items: center;
 		}
 	}
 }
+
