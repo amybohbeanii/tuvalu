@@ -1,5 +1,7 @@
+$navbar-height: 60px;
+
 .navbar {
-	padding: 2px;
+	height: $navbar-height;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -10,7 +12,7 @@
 		justify-content: flex-end;
 
 		p {
-			padding: 0 5px;
+			padding: 0 10px;
 			cursor: pointer;
 
 			a {

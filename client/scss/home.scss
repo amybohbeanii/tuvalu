@@ -1,6 +1,6 @@
 .main {
 	min-width: 100vw;
-	min-height: 100vh;
+	min-height: calc(100vh - #{$navbar-height};
 	background-image: url("http://4.bp.blogspot.com/-gpiS0MDknmA/VVOreSk0O-I/AAAAAAAAAfc/qDEyLegJdKc/s1600/11260370_10152903038608479_6272696136979344186_n.jpg");
 	background-repeat: no-repeat;
 	background-size: 100vw, 100vh;
@@ -35,6 +35,14 @@
 			border-radius: 100px;
 			cursor: pointer;
 			transition: .2s ease background-color;
+
+			button {
+				border: none;
+				cursor: pointer;
+				background: none;
+				color: white;
+				font-size: 20px;
+			}
 
 			&:hover {
 				background-color: rgba(0, 0, 0, 0.7);
