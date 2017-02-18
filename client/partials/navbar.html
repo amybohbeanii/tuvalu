@@ -13,4 +13,24 @@
 		</nav>
 	</section>
 
+	<section class='mobile-navbar'>
+
+		<div class='mobile-navbar__icons'>
+			<a href="{{pathFor 'home'}}">
+				<i class="fa fa-home" aria-hidden="true">
+				</i>
+			</a>
+
+			<i class="fa fa-bars" aria-hidden="true"></i>
+		</div>
+
+		<div class="mobile-navbar__dropdown">
+			<p><a href="{{pathFor 'team'}}">Team</a></p>
+			<p><a href="{{pathFor 'art'}}">Art</a></p>
+			<p><a href="{{pathFor 'goals'}}">Goals</a></p>
+			<p><a href="{{pathFor 'news'}}">News</a></p>
+		</div>
+
+	</section>
+
 </template>

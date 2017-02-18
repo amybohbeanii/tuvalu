@@ -6,6 +6,10 @@ $navbar-height: 60px;
 	justify-content: space-between;
 	align-items: center;
 
+	@media all and (max-width: 500px) {
+		display: none;
+	}
+
 	nav {
 		padding: 0 30px;
 		display: flex;
@@ -30,3 +34,29 @@ $navbar-height: 60px;
 	}
 }
 
+.mobile-navbar {
+	@media all and (min-width: 500px) {
+		display: none;
+	}
+
+	&__icons {
+		display: flex;
+		justify-content: space-between;
+
+		i {
+			padding: 15px;
+			font-size: 45px;
+			cursor: pointer;
+		}
+	}
+
+	&__dropdown {
+		text-align: center;
+
+		p {
+			padding: 3px;
+		}
+
+	}
+
+}
