@@ -5,15 +5,23 @@ $navbar-height: 60px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	background-color: #606075;
+
 
 	nav {
-		padding: 0 30px;
+		padding: 0 20px;
 		display: flex;
 		justify-content: flex-end;
+		background-color: #606075;
+
+	
+
 
 		p {
-			padding: 0 10px;
+			padding: 0 15px;
 			cursor: pointer;
+			color: white;
+		
 
 			a {
 				&:hover {
@@ -26,6 +34,7 @@ $navbar-height: 60px;
 		.home {
 			justify-content: flex-start;
 			align-items: center;
+			
 		}
 	}
 }
