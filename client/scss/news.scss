@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 .news{
 	
@@ -14,3 +15,30 @@
 		text-align: center;
 
 }
+=======
+.news {
+	margin: 0 auto;
+	max-width: 900px;
+	width: 80%;
+	padding: 30px;
+
+	h2 {
+		text-align: center;
+	}
+
+	.news__block {
+		margin: 0 auto;
+		max-width: 900px;
+		width: 80%;
+		padding: 15px 30px;
+
+		h3 {
+			margin: 0 auto;
+
+			a {
+
+			}
+		}
+	}
+}
+>>>>>>> bb9dec731afaba489f0db1153783ce8757fc88f1
